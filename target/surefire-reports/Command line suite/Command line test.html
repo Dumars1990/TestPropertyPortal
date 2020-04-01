@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 01 15:13:27 CEST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63070 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='registration.RegistrationTest.differentPasswordAndConfirmPassword()'><b>differentPasswordAndConfirmPassword</b><br>Test class: registration.RegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>registration.RegistrationTest@6aaa5eb0</td></tr>
+<tr>
+<td title='registration.RegistrationTest.invalidBirthDay()'><b>invalidBirthDay</b><br>Test class: registration.RegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>registration.RegistrationTest@6aaa5eb0</td></tr>
+<tr>
+<td title='registration.RegistrationTest.invalidJustOneNumberPassword()'><b>invalidJustOneNumberPassword</b><br>Test class: registration.RegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>registration.RegistrationTest@6aaa5eb0</td></tr>
+<tr>
+<td title='registration.RegistrationTest.invalidLessEightCharactersPassword()'><b>invalidLessEightCharactersPassword</b><br>Test class: registration.RegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>registration.RegistrationTest@6aaa5eb0</td></tr>
+<tr>
+<td title='registration.RegistrationTest.invalidOneCapitalLetterPassword()'><b>invalidOneCapitalLetterPassword</b><br>Test class: registration.RegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>registration.RegistrationTest@6aaa5eb0</td></tr>
+<tr>
+<td title='loginTest.LoginTest.invalidPassword()'><b>invalidPassword</b><br>Test class: loginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>loginTest.LoginTest@3d8c7aca</td></tr>
+<tr>
+<td title='registration.RegistrationTest.invalidPhone()'><b>invalidPhone</b><br>Test class: registration.RegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>registration.RegistrationTest@6aaa5eb0</td></tr>
+<tr>
+<td title='registration.RegistrationTest.invalidPostalCode()'><b>invalidPostalCode</b><br>Test class: registration.RegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>registration.RegistrationTest@6aaa5eb0</td></tr>
+<tr>
+<td title='loginTest.LoginTest.invalidUserName()'><b>invalidUserName</b><br>Test class: loginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>loginTest.LoginTest@3d8c7aca</td></tr>
+<tr>
+<td title='propertiesDetailTest.PropertiesDetailTest.testCardPeopleInterestedPropertiesPage()'><b>testCardPeopleInterestedPropertiesPage</b><br>Test class: propertiesDetailTest.PropertiesDetailTest</td>
+<td></td>
+<td>2</td>
+<td>propertiesDetailTest.PropertiesDetailTest@1a407d53</td></tr>
+<tr>
+<td title='propertiesTest.PropertiesTest.testFilterAndSelectProperty()'><b>testFilterAndSelectProperty</b><br>Test class: propertiesTest.PropertiesTest</td>
+<td></td>
+<td>1</td>
+<td>propertiesTest.PropertiesTest@3498ed</td></tr>
+<tr>
+<td title='registration.RegistrationTest.testGeneralInformationRegistration()'><b>testGeneralInformationRegistration</b><br>Test class: registration.RegistrationTest</td>
+<td></td>
+<td>4</td>
+<td>registration.RegistrationTest@6aaa5eb0</td></tr>
+<tr>
+<td title='propertiesTest.PropertiesTest.testGoToNavarraProperties()'><b>testGoToNavarraProperties</b><br>Test class: propertiesTest.PropertiesTest</td>
+<td></td>
+<td>6</td>
+<td>propertiesTest.PropertiesTest@3498ed</td></tr>
+<tr>
+<td title='propertiesDetailTest.PropertiesDetailTest.testLikesValidation()'><b>testLikesValidation</b><br>Test class: propertiesDetailTest.PropertiesDetailTest</td>
+<td></td>
+<td>6</td>
+<td>propertiesDetailTest.PropertiesDetailTest@1a407d53</td></tr>
+<tr>
+<td title='loginTest.LoginTest.testLoginPage()'><b>testLoginPage</b><br>Test class: loginTest.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>loginTest.LoginTest@3d8c7aca</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="63070" started-at="2020-04-01T13:13:27Z" finished-at="2020-04-01T13:14:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="63070" started-at="2020-04-01T13:13:27Z" finished-at="2020-04-01T13:14:30Z">
+      <class name="propertiesDetailTest.PropertiesDetailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:propertiesDetailTest.PropertiesDetailTest@1a407d53]" name="setUp" is-config="true" duration-ms="4708" started-at="2020-04-01T13:14:03Z" finished-at="2020-04-01T13:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:propertiesDetailTest.PropertiesDetailTest@1a407d53]" name="goHome" is-config="true" duration-ms="97" started-at="2020-04-01T13:14:08Z" finished-at="2020-04-01T13:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testLikesValidation()[pri:0, instance:propertiesDetailTest.PropertiesDetailTest@1a407d53]" name="testLikesValidation" duration-ms="6658" started-at="2020-04-01T13:14:08Z" finished-at="2020-04-01T13:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLikesValidation -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:propertiesDetailTest.PropertiesDetailTest@1a407d53]" name="goHome" is-config="true" duration-ms="98" started-at="2020-04-01T13:14:25Z" finished-at="2020-04-01T13:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testCardPeopleInterestedPropertiesPage()[pri:1, instance:propertiesDetailTest.PropertiesDetailTest@1a407d53]" name="testCardPeopleInterestedPropertiesPage" duration-ms="2512" started-at="2020-04-01T13:14:25Z" finished-at="2020-04-01T13:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCardPeopleInterestedPropertiesPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:propertiesDetailTest.PropertiesDetailTest@1a407d53]" name="tearDown" is-config="true" duration-ms="111" started-at="2020-04-01T13:14:28Z" finished-at="2020-04-01T13:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- propertiesDetailTest.PropertiesDetailTest -->
+      <class name="registration.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="setUp" is-config="true" duration-ms="5230" started-at="2020-04-01T13:13:27Z" finished-at="2020-04-01T13:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="goHome" is-config="true" duration-ms="165" started-at="2020-04-01T13:13:32Z" finished-at="2020-04-01T13:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="differentPasswordAndConfirmPassword()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="differentPasswordAndConfirmPassword" duration-ms="2390" started-at="2020-04-01T13:13:32Z" finished-at="2020-04-01T13:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differentPasswordAndConfirmPassword -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="goHome" is-config="true" duration-ms="55" started-at="2020-04-01T13:13:35Z" finished-at="2020-04-01T13:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="invalidBirthDay()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="invalidBirthDay" duration-ms="1932" started-at="2020-04-01T13:13:35Z" finished-at="2020-04-01T13:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBirthDay -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="goHome" is-config="true" duration-ms="52" started-at="2020-04-01T13:13:36Z" finished-at="2020-04-01T13:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="invalidJustOneNumberPassword()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="invalidJustOneNumberPassword" duration-ms="2122" started-at="2020-04-01T13:13:37Z" finished-at="2020-04-01T13:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidJustOneNumberPassword -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="goHome" is-config="true" duration-ms="53" started-at="2020-04-01T13:13:39Z" finished-at="2020-04-01T13:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="invalidLessEightCharactersPassword()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="invalidLessEightCharactersPassword" duration-ms="1970" started-at="2020-04-01T13:13:39Z" finished-at="2020-04-01T13:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLessEightCharactersPassword -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="goHome" is-config="true" duration-ms="44" started-at="2020-04-01T13:13:41Z" finished-at="2020-04-01T13:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="invalidOneCapitalLetterPassword()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="invalidOneCapitalLetterPassword" duration-ms="1970" started-at="2020-04-01T13:13:41Z" finished-at="2020-04-01T13:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidOneCapitalLetterPassword -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="goHome" is-config="true" duration-ms="47" started-at="2020-04-01T13:13:43Z" finished-at="2020-04-01T13:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="invalidPhone()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="invalidPhone" duration-ms="2005" started-at="2020-04-01T13:13:43Z" finished-at="2020-04-01T13:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPhone -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="goHome" is-config="true" duration-ms="57" started-at="2020-04-01T13:13:45Z" finished-at="2020-04-01T13:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="invalidPostalCode()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="invalidPostalCode" duration-ms="2036" started-at="2020-04-01T13:13:45Z" finished-at="2020-04-01T13:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPostalCode -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="goHome" is-config="true" duration-ms="43" started-at="2020-04-01T13:13:47Z" finished-at="2020-04-01T13:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testGeneralInformationRegistration()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="testGeneralInformationRegistration" duration-ms="4412" started-at="2020-04-01T13:13:47Z" finished-at="2020-04-01T13:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneralInformationRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:registration.RegistrationTest@6aaa5eb0]" name="tearDown" is-config="true" duration-ms="159" started-at="2020-04-01T13:13:51Z" finished-at="2020-04-01T13:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- registration.RegistrationTest -->
+      <class name="propertiesTest.PropertiesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:propertiesTest.PropertiesTest@3498ed]" name="setUp" is-config="true" duration-ms="5397" started-at="2020-04-01T13:13:51Z" finished-at="2020-04-01T13:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:propertiesTest.PropertiesTest@3498ed]" name="goHome" is-config="true" duration-ms="208" started-at="2020-04-01T13:13:57Z" finished-at="2020-04-01T13:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testGoToNavarraProperties()[pri:0, instance:propertiesTest.PropertiesTest@3498ed]" name="testGoToNavarraProperties" duration-ms="6029" started-at="2020-04-01T13:13:57Z" finished-at="2020-04-01T13:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoToNavarraProperties -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:propertiesTest.PropertiesTest@3498ed]" name="goHome" is-config="true" duration-ms="190" started-at="2020-04-01T13:14:23Z" finished-at="2020-04-01T13:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testFilterAndSelectProperty()[pri:1, instance:propertiesTest.PropertiesTest@3498ed]" name="testFilterAndSelectProperty" duration-ms="1716" started-at="2020-04-01T13:14:23Z" finished-at="2020-04-01T13:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterAndSelectProperty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:propertiesTest.PropertiesTest@3498ed]" name="tearDown" is-config="true" duration-ms="104" started-at="2020-04-01T13:14:25Z" finished-at="2020-04-01T13:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- propertiesTest.PropertiesTest -->
+      <class name="loginTest.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:loginTest.LoginTest@3d8c7aca]" name="setUp" is-config="true" duration-ms="4259" started-at="2020-04-01T13:14:15Z" finished-at="2020-04-01T13:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:loginTest.LoginTest@3d8c7aca]" name="goHome" is-config="true" duration-ms="166" started-at="2020-04-01T13:14:19Z" finished-at="2020-04-01T13:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:loginTest.LoginTest@3d8c7aca]" name="testLoginPage" duration-ms="3885" started-at="2020-04-01T13:14:19Z" finished-at="2020-04-01T13:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:loginTest.LoginTest@3d8c7aca]" name="goHome" is-config="true" duration-ms="51" started-at="2020-04-01T13:14:28Z" finished-at="2020-04-01T13:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="invalidPassword()[pri:1, instance:loginTest.LoginTest@3d8c7aca]" name="invalidPassword" duration-ms="998" started-at="2020-04-01T13:14:28Z" finished-at="2020-04-01T13:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:loginTest.LoginTest@3d8c7aca]" name="goHome" is-config="true" duration-ms="44" started-at="2020-04-01T13:14:29Z" finished-at="2020-04-01T13:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="invalidUserName()[pri:1, instance:loginTest.LoginTest@3d8c7aca]" name="invalidUserName" duration-ms="969" started-at="2020-04-01T13:14:29Z" finished-at="2020-04-01T13:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:loginTest.LoginTest@3d8c7aca]" name="tearDown" is-config="true" duration-ms="97" started-at="2020-04-01T13:14:30Z" finished-at="2020-04-01T13:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- loginTest.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
