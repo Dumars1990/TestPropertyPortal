@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/vmgalindo/workspace/TestCotecna">
+        <classes>
+            <class name="registration.RegistrationTest">
+                <methods>
+                    <include name="testGeneralInformationRegistration"/>
+                    <include name="invalidBirthDay"/>
+                    <include name="invalidPostalCode"/>
+                    <include name="invalidPhone"/>
+                    <include name="invalidOneCapitalLetterPassword"/>
+                    <include name="invalidLessEightCharactersPassword"/>
+                    <include name="invalidJustOneNumberPassword"/>
+                    <include name="differentPasswordAndConfirmPassword"/>
+                </methods>
+            </class>
+            <class name="loginTest.LoginTest">
+                <methods>
+                    <include name="testLoginPage"/>
+                    <include name="invalidUserName"/>
+                    <include name="invalidPassword"/>
+                </methods>
+            </class>
+            <class name="propertiesTest.PropertiesTest">
+                <methods>
+                    <include name="testGoToNavarraProperties"/>
+                    <include name="testFilterAndSelectProperty"/>
+                </methods>
+            </class>
+            <class name="propertiesDetailTest.PropertiesDetailTest">
+                <methods>
+                    <include name="testLikesValidation"/>
+                    <include name="testCardPeopleInterestedPropertiesPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
